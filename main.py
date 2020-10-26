@@ -11,8 +11,11 @@ def index():
         print("POST")
         keyword = request.form.get("keyword")
         link = request.form.get("link")
+        if "https://" not in link:
+            link = "https://" + link
         db[keyword] = str(link)
         print(f"{keyword}:{link}")
+    
     return render_template("index.html")
 
 @app.route("/<e>")
