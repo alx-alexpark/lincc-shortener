@@ -1,2 +1,5 @@
-# lincc-shortener
-Yes, I intentionally spelled it like that, run on repl.it!! This uses their simple and amazing key-value databse.
+# LonGG Lincc
+#### https://veryshort.lincc.cf
+Make unnessarily big links to send to your friends.
+Uses piccledb(pickledb) for lincc database.
+Hosted on repl.it so uptime might be bad.
